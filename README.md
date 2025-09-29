@@ -10,7 +10,8 @@
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
-
+* [How to run](#how-to-run)
+  
 ## General Information
 - For this assignment, a Python notebook containing RAG implementaion with Llamaindex framework is expected to submit
 - This project aims to address issues with Insurance policy documents such as lengthy, complex, and difficult for users to interpret, leading to confusion and delays in decision-making.
@@ -28,7 +29,7 @@
 - By enabling accurate, context-aware responses to user queries, the solution enhances customer support, reduces manual effort, and improves decision-making for agents and policyholders alike.
 
 ## Knowledge Base
-The following files are present inside knowledge_base folder:
+The following files are present inside knowledge_base folder. These files are provided by upGrad
 - HDFC-Life-Easy-Health-101N110V03-Policy-Bond-Single-Pay.pdf
 - HDFC-Life-Group-Poorna-Suraksha-101N137V02-Policy-Document.pdf
 - HDFC-Life-Group-Term-Life-Policy.pdf
@@ -50,6 +51,17 @@ The following files are present inside knowledge_base folder:
 - Repeat the process with default values, chanding model and adding more specific settings
 - Creating user interface with Gradio
 - Submitting query and anlysising response with execution time
+
+## How to run
+For executing this RAG implementation, google colab is used because the environment setup becomes very easy with google colab. For any other execution environment such as windows machine, need to create requirements.txt with all technologies used.
+Assuming this code will be directly executed with google colab, all the depencies are managed in the code file itself.
+- upload 'Semantic_Spotter_using_LlamaIndex_Submission_(F).ipynb' to google colab.  
+- Create a folder with name 'knowledge_base' and upload all the files.
+- upload api_key.txt that contains OpenAI API key
+- Click on 'Run All' (either from menu items Runtime->Run All or directly from Run All option
+- monitor for any error
+- Monitor responses of various queries (query_1 to query_8)
+- Finally write query in Query section of Gradio and click on submit
 
 ## Conclusions
 - LlamaIndex streamlines the creation of Retrieval-Augmented Generation systems by offering modular tools for document ingestion, indexing, and context-aware querying. 

@@ -5,7 +5,7 @@
 * [General Info](#general-information)
 * [Project Structure](#project-structure)
 * [Business Context](#business-context)
-* [Dataset and Data Dictionary](#dataset-and-data-dictionary)
+* [Knowledge Base](#knowledge-base)
 * [RAG pipeline building approach](#rag-pipeline-building-approach)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
@@ -27,7 +27,7 @@
 - This project aims to streamline access to critical information by building a generative search system powered by Retrieval-Augmented Generation (RAG). 
 - By enabling accurate, context-aware responses to user queries, the solution enhances customer support, reduces manual effort, and improves decision-making for agents and policyholders alike.
 
-## Dataset and Data Dictionary
+## Knowledge Base
 The following files are present inside knowledge_base folder:
 - HDFC-Life-Easy-Health-101N110V03-Policy-Bond-Single-Pay.pdf
 - HDFC-Life-Group-Poorna-Suraksha-101N137V02-Policy-Document.pdf

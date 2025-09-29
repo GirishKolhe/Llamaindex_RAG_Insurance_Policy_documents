@@ -60,7 +60,7 @@ Assuming this code will be directly executed with google colab, all the depencie
 - Create a folder with name 'knowledge_base' and upload all the files.
 - upload api_key.txt that contains OpenAI API key
 - Click on 'Run All' (either from menu items Runtime->Run All or directly from Run All option
-- monitor for any error
+- Monitor any error
 - Monitor responses of various queries (query_1 to query_8)
 - Finally write query in Query section of Gradio and click on submit
 

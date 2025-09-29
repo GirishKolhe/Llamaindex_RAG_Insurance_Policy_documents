@@ -8,9 +8,10 @@
 * [Knowledge Base](#knowledge-base)
 * [RAG pipeline building approach](#rag-pipeline-building-approach)
 * [Technologies Used](#technologies-used)
+* [How to run](#how-to-run)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
-* [How to run](#how-to-run)
+
   
 ## General Information
 - For this assignment, a Python notebook containing RAG implementaion with Llamaindex framework is expected to submit

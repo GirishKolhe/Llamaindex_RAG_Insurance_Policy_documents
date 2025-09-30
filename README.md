@@ -55,9 +55,9 @@ The following files are present inside knowledge_base folder. These files are pr
 
 ## How to run
 For executing this RAG implementation, google colab is used because the environment setup becomes very easy with google colab. For any other execution environment such as windows machine, need to create requirements.txt with all technologies used.
-Assuming this code will be directly executed with google colab, all the depencies are managed in the code file itself.
+Recommending this code to be executed in google colab, all the dependencies are managed in the code file itself.
 - upload 'Semantic_Spotter_using_LlamaIndex_Submission_(F).ipynb' to google colab.  
-- Create a folder with name 'knowledge_base' and upload all the files.
+- Create a folder with name 'knowledge_base' and upload all the files in runtime.
 - upload api_key.txt that contains OpenAI API key
 - Click on 'Run All' (either from menu items Runtime->Run All or directly from Run All option
 - Monitor any error
